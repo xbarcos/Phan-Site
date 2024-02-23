@@ -9,4 +9,4 @@ Tendo pelo menos o **Node.Js** na versão 20.11.1, abra o terminal na sua pasta 
 
 # Deploy
 O projeto Next está hospedado no vercel, e você pode conferir ele em funcionamento no link a seguir:
-[Phantom Thieves Aficionado Website](https://phan-site-lrlprk883-xbarcos.vercel.app/)
+[Phantom Thieves Aficionado Website](https://phan-site-q084ahfoo-xbarcos.vercel.app/)
