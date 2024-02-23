@@ -1,16 +1,5 @@
 import Image from "next/image";
-import localFont from "next/font/local";
 import PopularVote from "./components/popular-vote";
-
-export const ExposeRegular = localFont({
-  src: "../../public/fonts/Expose-Regular.otf",
-});
-export const Persona5Font = localFont({
-  src: "../../public/fonts/Persona5MenuFontPrototype-Regular.ttf",
-});
-export const Rodfellows = localFont({
-  src: "../../public/fonts/Rodfellows-wacky.ttf",
-});
 
 function getRandomNumber() {
   return Math.floor(Math.random() * 100) + 1;

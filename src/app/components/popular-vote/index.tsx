@@ -1,5 +1,15 @@
-import { ExposeRegular, Persona5Font, Rodfellows } from "@/app/page";
 import React from "react";
+import localFont from "next/font/local";
+
+const ExposeRegular = localFont({
+  src: "../../../../public/fonts/Expose-Regular.otf",
+});
+const Persona5Font = localFont({
+  src: "../../../../public/fonts/Persona5MenuFontPrototype-Regular.ttf",
+});
+const Rodfellows = localFont({
+  src: "../../../../public/fonts/Rodfellows-wacky.ttf",
+});
 
 interface PopularVoteProps {
   title: string;
